@@ -7,11 +7,11 @@ npm install
 npm run dev
 ```
 
-## Using this example to create
+# Using this example to create
 
 Run the following command:
 
-### TurboRepo
+## TurboRepo
 
 ```sh
 npx create-turbo@latest
@@ -22,13 +22,13 @@ remove unnecessary file
 - clear apps folder
 - clear packages folder
 
-## go to the apps folder to create frontend and backend
+## Go to the apps folder to create frontend and backend
 
 ```sh
 cd apps
 ```
 
-### ReactJs (vite)
+## ReactJs (vite)
 
 ```sh
 npm create vite@latest
@@ -36,7 +36,7 @@ or
 npm create vite@latest client
 ```
 
-### NestJs
+## NestJs
 
 ```sh
 npm i -g @nestjs/cli
@@ -46,7 +46,7 @@ or
 nest new api
 ```
 
-Remove Nested Git Repository:
+Remove Nested Git Repository in NestJs:
 
 ```sh
 cd api
@@ -58,7 +58,7 @@ ls -a
 rm -rf .git
 ```
 
-after removing the nested .git directory, go back to root file and add the changes:
+After removing the nested .git directory, go back to root file and add the changes:
 
 ```sh
 cd ..
